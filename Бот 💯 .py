@@ -132,7 +132,7 @@ async def handler(message: types.Message):
         instagram_link = "https://www.instagram.com/_tobish_08"
         creator_info = (
             "ℹ️ <b>Информация о боте:</b>\n\n"
-            "🤖 Это бот-переводчик, созданный с использованием aiogram и deep_translator.\n\n"
+            "🤖 Это бот-переводчик, который может переводить на 10 языках мира 🌐..\n\n"
             "<b>Создатель:</b> <a href='{link}'>_tobish_08</a>".format(link=instagram_link)
         )
         await message.answer(creator_info, parse_mode="HTML", disable_web_page_preview=True)
