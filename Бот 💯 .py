@@ -11,9 +11,9 @@ import urllib.parse
 kks = pykakasi.kakasi()
 
 # --- ВАЖНО: Замените на СВОЙ реальный Telegram ID ---
-OWNER_ID = -5226545880
+OWNER_ID = 123456789
 
-TOKEN = "7253188204:AAFFPO7Nsh8RDlFvMxOV5558Lw_Plv5yUZ8"
+TOKEN = "your_api"
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
 
